@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "@types/enzyme": "^2.7.1",
+    "@types/es6-shim": "^0.31.32",
+    "@types/react-dom": "^0.14.20",
+    "ava": "^0.17.0",
+    "enzyme": "^2.7.0",
+    "jsdom": "^9.9.1",
+    "react": "^15.4.2",
+    "react-addons-test-utils": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "typescript": "^2.1.5",
+    "typings": "^2.1.0"
+  },
+  "ava": {
+    "require": [
+      "./ava.js"
+    ]
+  },
+  "scripts": {
+    "test": "tsc && ava src/*.test.js"
+  }
+}
